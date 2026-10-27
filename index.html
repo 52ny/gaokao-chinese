@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾文 · 高三语文真题与知识通关</title>
+<meta name="description" content="高三语文刷题站：高考真题与优质模拟卷整套模考、知识点与做题技巧、AI 卡壳诊断、十分钟记忆、番茄钟与学习时长记录。"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%235f7d7a'/%3E%3Ctext x='50' y='72' font-size='56' text-anchor='middle' fill='%23fbf9f4'%3E%E6%96%87%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="md-header">
+  <div class="header-inner">
+    <button class="icon-btn menu-btn" id="menu-toggle" aria-label="打开目录">☰</button>
+    <a class="brand" href="#/home">
+      <span class="brand-mark">文</span>
+      <span class="brand-text">拾文</span>
+      <span class="brand-sub">高三语文 · 真题通关</span>
+    </a>
+    <nav class="tabs" id="tabs">
+      <a href="#/home" data-tab="home">首页</a>
+      <a href="#/knowledge" data-tab="knowledge">知识点</a>
+      <a href="#/papers" data-tab="papers">真题模考</a>
+      <a href="#/memorize" data-tab="memorize">十分钟</a>
+      <a href="#/bank" data-tab="bank">题库</a>
+      <a href="#/wrong" data-tab="wrong">错题本</a>
+      <a href="#/stats" data-tab="stats">学习统计</a>
+    </nav>
+    <div class="header-actions">
+      <button class="pomo-mini" id="pomo-mini" title="番茄钟">
+        <span class="pomo-dot"></span><span id="pomo-mini-time">25:00</span>
+      </button>
+      <button class="search-trigger" id="search-open">搜索<span class="kbd">/</span></button>
+      <a class="icon-btn" href="#/settings" title="设置" aria-label="设置">⚙</a>
+      <button class="icon-btn" id="theme-toggle" aria-label="切换主题">◐</button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay" id="search-overlay" hidden>
+  <div class="search-panel">
+    <div class="search-row">
+      <input id="search-input" type="search" placeholder="搜索题目、知识点、技巧，例如：补写 / 文言实词 / 论证特点 / 2025" autocomplete="off">
+      <button class="icon-btn" id="search-close" aria-label="关闭搜索">✕</button>
+    </div>
+    <div class="search-results" id="search-results">
+      <p class="search-hint">输入关键词开始搜索；回车打开第一条结果。</p>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="content" id="content">
+    <div class="loading">正在加载题库与知识点…</div>
+  </main>
+  <aside class="toc" id="toc"></aside>
+</div>
+
+<footer class="site-footer">
+  <div><strong>拾文</strong> · 高三语文真题与知识通关</div>
+  <div class="footer-note">
+    真题卷依据公开试卷的题型、考点与设问方式教学化改编，阅读材料为仿写与改写，不逐字复制原卷；模拟卷为按新高考结构自编的仿真卷。AI 分析由第三方模型生成，可能与参考答案不一致，请以教材、教师讲解与官方答案为准。
+  </div>
+</footer>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/js/knowledge-a.js"></script>
+<script src="assets/js/knowledge-b.js"></script>
+<script src="assets/js/knowledge-c.js"></script>
+<script src="assets/js/knowledge-d.js"></script>
+<script src="assets/js/knowledge-e.js"></script>
+<script src="assets/js/data-real-2025a.js"></script>
+<script src="assets/js/data-real-2025b.js"></script>
+<script src="assets/js/data-real-2024a.js"></script>
+<script src="assets/js/data-real-2024b.js"></script>
+<script src="assets/js/data-mock-8s.js"></script>
+<script src="assets/js/data-mock-gz.js"></script>
+<script src="assets/js/data-mock-wh.js"></script>
+<script src="assets/js/data-mock-tx.js"></script>
+<script src="assets/js/data-q19.js"></script>
+<script src="assets/js/data-drill-a.js"></script>
+<script src="assets/js/data-drill-b.js"></script>
+<script src="assets/js/memo.js"></script>
+<script src="assets/js/ai.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
